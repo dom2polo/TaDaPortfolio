@@ -180,7 +180,7 @@ def experience():
     st.header("Work Experience")
 
     # M Health Fairview - Cultural Broker
-    with st.expander("M Health Fairview - Cultural Broker"):
+    with st.expander("M Health Fairview, St. Paul, MN"):
         st.markdown("<div class='work-exp-title'>Cultural Broker</div>", unsafe_allow_html=True)
         st.markdown("""
             <div class='work-exp-details'>
@@ -192,7 +192,7 @@ def experience():
         """, unsafe_allow_html=True)
 
     # Karen Organization of MN
-    with st.expander("Karen Organization of MN, Roseville, MN"):
+    with st.expander("Karen Organization of Minnesota, Roseville, MN"):
         st.markdown("<div class='work-exp-title'>Community Health Educator</div>", unsafe_allow_html=True)
         st.markdown("""
             <div class='work-exp-details'>
