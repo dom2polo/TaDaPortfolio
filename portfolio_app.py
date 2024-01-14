@@ -98,6 +98,7 @@ def main():
         unsafe_allow_html=True,
     )
 
+
     # Initial state
     current_page = "About Me"
 
@@ -373,6 +374,36 @@ def experience():
 def community():
     st.header("Volunteer work & Extracurricular Activities")
 
+    # Define CSS style for community entries
+    community_entry_style = """
+        background-color: rgba(128, 128, 128, 0.2);
+        padding: 10px;
+        border-radius: 10px;
+    """
+
+    # Mobile responsive style
+    mobile_responsive_style = """
+        @media only screen and (max-width: 600px) {
+            .community-entry {
+                flex-direction: column;
+                margin-bottom: 15px;  /* Add some spacing between entries */
+            }
+        }
+    """
+
+    st.markdown(
+        f"""
+        <style>
+            .community-entry {{
+                {community_entry_style}
+            }}
+
+            {mobile_responsive_style}
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
     # Create columns for each entry
     col1, col2, col3 = st.columns(3)
 
@@ -380,7 +411,7 @@ def community():
     with col1:
         st.markdown(
             """
-            <div style='background-color: rgba(128, 128, 128, 0.2); padding: 10px; border-radius: 10px;'>
+            <div class='community-entry'>
                 <p><strong>Organization:</strong> Midwest North Region - Karen Baptist Church, USA (KBCUSA) (national organization)</p>
                 <p><strong>Date:</strong> 2021-Present</p>
                 <p><strong>Role:</strong> Care and Counseling Department, Secretary</p>
@@ -393,7 +424,7 @@ def community():
     with col2:
         st.markdown(
             """
-            <div style='background-color: rgba(128, 128, 128, 0.2); padding: 10px; border-radius: 10px;'>
+            <div class='community-entry'>
                 <p><strong>Organization:</strong> Calvary Karen Baptist Church</p>
                 <p><strong>Date:</strong> 2018-Present</p>
                 <p><strong>Role:</strong> A Communicator between Community and Church leader or Church members as needed.</p>
@@ -406,7 +437,7 @@ def community():
     with col3:
         st.markdown(
             """
-            <div style='background-color: rgba(128, 128, 128, 0.2); padding: 10px; border-radius: 10px;'>
+            <div class='community-entry'>
                 <p><strong>Organization:</strong> Karen Community of Minnesota</p>
                 <p><strong>Date:</strong> 2017-2023</p>
                 <p><strong>Role:</strong> Treasurer: accounting and financial reporting</p>
@@ -414,7 +445,6 @@ def community():
             """,
             unsafe_allow_html=True
         )
-
 # Contact Me Section
 def contact_me():
     st.header("Contact Me")
