@@ -82,7 +82,18 @@ def main():
             .sidebar .css-17cn3wg:hover {
                 background-color: #2980b9;
             }
+
+            .education-details {
+            margin-bottom: 20px;
+            }
+
+            .education-item {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
         </style>
+
+        
         """,
         unsafe_allow_html=True,
     )
@@ -221,6 +232,140 @@ def experience():
                 <p><strong>Date:</strong> 2006-2008</p>
                 <p><strong>Organization:</strong> Ma La Oon Refugee Camp Committee</p>
                 <p>Camp sanitation, water sanitation, networking and cooperation with local NGOs and international NGOs, reporting, taking care of chronic patients in camp, health workers' pronation.</p>
+            </div>
+        """, unsafe_allow_html=True)
+
+    st.header("Education and Training")
+    with st.expander("Education"):
+        st.markdown("""
+            <div class='education-details'>
+                <div class='education-item'>
+                    Roseville High School Diploma, Roseville, MN
+                </div>
+                <div class='education-item'>
+                    June 2020
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item'>
+                    Mae Khong Kah High School Diploma, Maesariang, Thailand
+                </div>
+                <div class='education-item'>
+                    March 1996
+                </div>
+            </div>
+        """, unsafe_allow_html=True)
+
+    # Expander for Training
+    with st.expander("Training"):
+        st.markdown("""
+            <style>
+                .highlight {
+                    background-color: rgba(52, 152, 219, 0.3); /* Blue with 30% opacity */
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-bottom: 10px;
+                }
+
+                .training-item {
+                    margin-bottom: 5px;
+                }
+
+                .date-location {
+                    font-style: italic;
+                    color: #777;
+                }
+            </style>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Motivation Interviewing Training
+                </div>
+                <div class='date-location'>
+                    November 2019, Roseville, MN
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Van Driver Coach
+                </div>
+                <div class='date-location'>
+                    August 2018, Minnesota, USA
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Recovery Coach Academy Training
+                </div>
+                <div class='date-location'>
+                    March 2018, Minnesota, USA
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Addiction Worker Training of Trainer Coach, Thailand
+                </div>
+                <div class='date-location'>
+                    December 2009
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Child Protection Training, Maesariang, Thailand
+                </div>
+                <div class='date-location'>
+                    March 2007
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Computer Basic Training, Maesariang, Thailand
+                </div>
+                <div class='date-location'>
+                    April 2006 - June 2006
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Leadership and Management Courses, Maesariang, Thailand
+                </div>
+                <div class='date-location'>
+                    January 2004 - January 2006
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Mobile Computer Training, Mae La Oon Refugee Camp, Thailand
+                </div>
+                <div class='date-location'>
+                    March 2005
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    Drug Alcohol Recovery Education Training, Maesariang, Thailand
+                </div>
+                <div class='date-location'>
+                    May 2002 - June 2002
+                </div>
+            </div>
+
+            <div class='education-details'>
+                <div class='education-item highlight'>
+                    UDHR (Universal Declaration of Human Rights) Training, Maesariang, Thailand
+                </div>
+                <div class='date-location'>
+                    March 2002
+                </div>
             </div>
         """, unsafe_allow_html=True)
 
