@@ -99,8 +99,8 @@ def main():
     # Create sidebar radio buttons
     st.sidebar.caption('Wish to connect?')
     st.sidebar.write('📧: tadahray77@gmail.com')
-    pdfFileObj = open('Ta-Dah-Resume.pdf', 'rb')
-    st.sidebar.download_button('Click to Download Resume',pdfFileObj,file_name='Ta-Dah-Resume.pdf',mime='pdf')
+    pdfFileObj = open('Ta-Da-Resume.pdf', 'rb')
+    st.sidebar.download_button('Click to Download Resume',pdfFileObj,file_name='Ta-Da-Resume.pdf',mime='pdf')
     
     if about_me_button:
         current_page = "About Me"
