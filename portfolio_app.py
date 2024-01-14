@@ -308,64 +308,64 @@ def experience():
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Addiction Worker Training of Trainer Coach, Thailand
+                    Addiction Worker Training of Trainer Coach
                 </div>
                 <div class='date-location'>
-                    December 2009
+                    December 2009, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Child Protection Training, Maesariang, Thailand
+                    Child Protection Training
                 </div>
                 <div class='date-location'>
-                    March 2007
+                    March 2007, Maesariang, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Computer Basic Training, Maesariang, Thailand
+                    Computer Basic Training
                 </div>
                 <div class='date-location'>
-                    April 2006 - June 2006
+                    April 2006 - June 2006, Maesariang, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Leadership and Management Courses, Maesariang, Thailand
+                    Leadership and Management Courses
                 </div>
                 <div class='date-location'>
-                    January 2004 - January 2006
+                    January 2004 - January 2006, Maesariang, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Mobile Computer Training, Mae La Oon Refugee Camp, Thailand
+                    Mobile Computer Training
                 </div>
                 <div class='date-location'>
-                    March 2005
+                    March 2005, Mae La Oon Refugee Camp, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    Drug Alcohol Recovery Education Training, Maesariang, Thailand
+                    Drug Alcohol Recovery Education Training
                 </div>
                 <div class='date-location'>
-                    May 2002 - June 2002
+                    May 2002 - June 2002, Maesariang, Thailand
                 </div>
             </div>
 
             <div class='education-details'>
                 <div class='education-item highlight'>
-                    UDHR (Universal Declaration of Human Rights) Training, Maesariang, Thailand
+                    UDHR (Universal Declaration of Human Rights) Training
                 </div>
                 <div class='date-location'>
-                    March 2002
+                    March 2002, Maesariang, Thailand
                 </div>
             </div>
         """, unsafe_allow_html=True)
